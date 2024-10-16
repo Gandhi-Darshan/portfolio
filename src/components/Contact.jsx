@@ -40,7 +40,7 @@ const Contact = ({ onMemberClick, onMouseEnter, onMouseLeave }) => {
     {
       name: "Hardik Shah",
       image: Hardik,
-      Role: "Backend/Database Developer",
+      Role: "Backend/DB Developer",
       description: "A team management web application.",
       projects: [
         {
@@ -95,7 +95,7 @@ const Contact = ({ onMemberClick, onMouseEnter, onMouseLeave }) => {
         Meet Our Team
       </motion.h1>
 
-      <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+      <div className="flex flex-wrap justify-center gap-6 md:gap-6">
         {teamMembers.map((member, index) => (
           <div
             key={index}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiLogoJavascript, BiLogoNodejs, BiLogoReact, BiLogoTailwindCss } from 'react-icons/bi'
+import { BiLogoAndroid, BiLogoAngular, BiLogoAws, BiLogoDocker, BiLogoFirebase, BiLogoGit, BiLogoJava, BiLogoJavascript, BiLogoMongodb, BiLogoNodejs, BiLogoPython, BiLogoReact, BiLogoTailwindCss } from 'react-icons/bi'
 import { motion } from 'framer-motion'
 
 const Tech = () => {
@@ -45,7 +45,90 @@ const Tech = () => {
             <BiLogoReact  className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 
             sm:text-[100px] md:text-[100px]'/>
         </motion.div>
-      </div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoDocker  className='cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoNodejs  className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoAndroid  className='cursor-pointer text-[80px] text-lime-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+        
+        <div className='flex flex-wrap items-center justify-center gap-10 p-5'>
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoPython  className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoGit  className='cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoFirebase  className='cursor-pointer text-[80px] text-orange-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoJava  className='cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoAws  className='cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+
+        <motion.div
+       variants={variants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 0.5 }}>
+            <BiLogoMongodb  className='cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 
+            sm:text-[100px] md:text-[100px]'/>
+        </motion.div>
+        </div>
+        </div>
     </div>
 }
 
