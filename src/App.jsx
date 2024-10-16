@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Hero from "./components/hero";
-import Tech from "./components/Tech";
+import Hero from "./components/Hero";
+import Techy from "./components/Techy";
 import Project from "./components/Project";
 
 const App = () => {
@@ -46,7 +46,7 @@ const App = () => {
       <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
         <Navbar />
         <Hero />
-        <Tech />
+        <Techy />
         <Contact
           onMemberClick={handleMemberClick}
           onMouseEnter={handleMouseEnter}

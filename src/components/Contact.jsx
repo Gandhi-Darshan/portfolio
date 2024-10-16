@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Darshan from "/Project/portfolio/Image/Darshan.png";
-import Car from "/Project/portfolio/Image/CarRentalManagment.png";
-import DarshanU from "/Project/portfolio/Image/DarshanU.png";
-import Arjav from "/Project/portfolio/Image/Arjav.png";
-import Hardik from "/Project/portfolio/Image/Hardik.png";
-import Gaurang from "/Project/portfolio/Image/Gaurang.png";
+import Darshan from "../../Image/Darshan.png";
+import Car from "../../Image/CarRentalManagment.png";
+import DarshanU from "../../Image/darshanU.png";
+import Arjav from "../../Image/arjav.png";
+import Hardik from "../../Image/hardik.png";
+import Gaurang from "../../Image/gaurang.png";
 
 const Contact = ({ onMemberClick, onMouseEnter, onMouseLeave }) => {
   const teamMembers = [
