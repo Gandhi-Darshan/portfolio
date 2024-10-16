@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "/Project/portfolio/Image/JarvisLogo.png"
+import image from "../../Image/JarvisLogo.png"
 import { motion } from 'framer-motion'
 
 const Hero = () => {
