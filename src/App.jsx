@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Hero from "./components/hero";
 import Techy from "./components/Techy";
 import Project from "./components/Project";
 
