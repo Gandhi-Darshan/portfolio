@@ -30,10 +30,10 @@ const Hero = () => {
                             text-2xl font-light md:text-3xl'>
                         Humber IGS
                     </h3>
-
+{/* 
                     <p className='md:text-base text-pretty text-sm text-gray-400'>
                         Team Description
-                    </p>
+                    </p> */}
                 </motion.div>
 
             </div>
